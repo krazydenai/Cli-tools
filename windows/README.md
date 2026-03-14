@@ -41,10 +41,11 @@ Simply double-click **`launch.bat`** to start KrazydenAI!
 ## Troubleshooting
 
 **"node is not recognized"**
+- Check if Node.js is in path
 - Install Node.js from https://nodejs.org/
 - Then restart and try again
 
-**Window closes immediately**
+**Window closes immediately (it shouldn't, but if it does)**
 - Right-click `launch.bat` → Edit
 - Add this line at the end: `pause`
 - Save and try again (will now show any errors)
